@@ -32,10 +32,7 @@ export default function List({ navigation }) {
                 <TouchableOpacity onPress={handleLogout} style={styles.buttonLogout}>
                     <Text style={styles.buttonText}>Log-out</Text>
                 </TouchableOpacity>
-            </ScrollView>
-
-            
-            
+            </ScrollView>          
         </SafeAreaView>
     );
 }
